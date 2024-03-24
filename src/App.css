@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background: rgb(48, 46, 70);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 46, 70, 1) 3%,
+    rgba(18, 80, 154, 1) 77%,
+    rgba(50, 62, 64, 0.8746849081429446) 100%
+  );
+}
+
+form {
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+label {
+  color: white;
+}
+
+input {
+  color: azure;
+}
+
+input:focus {
+  color: azure;
+}
+
+*::placeholder {
+  color: azure !important;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: black;
+}
